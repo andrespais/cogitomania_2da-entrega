@@ -1,0 +1,24 @@
+@media (max-width: 576px) {
+    .h1__cogitomania {
+        font-size: 5rem;
+    }
+    .p__podcast {
+        margin-left: 8rem; 
+        font-size: 80%;
+    }
+    .div__ciencia {
+        display: flex;
+    }
+    .p__ciencia {
+        margin-left: 8rem; 
+        font-size: 80%;
+        order: 2;
+    }
+    .img__ciencia {
+        order: 1;
+    }
+    .p__cultura {
+        margin-left: 8rem; 
+        font-size: 80%;
+    }
+}

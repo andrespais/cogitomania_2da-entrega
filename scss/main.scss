@@ -1,0 +1,36 @@
+* {
+    font-family: 'JetBrains Mono';
+}
+
+.navbar {
+    .container-fluid {
+        a:hover {
+            background-color: white;
+            color: black !important;
+        }
+        .navbar-toggler {
+            background-color: white;
+        }
+        .navbar-nav {
+            margin-left: 70%;
+        }
+        .navbar-brand:hover {
+            background-color: black;
+        }
+    }
+}
+
+footer {
+    background-color: #ff6100;
+    padding: 5rem;
+    .img__footer {
+        width: 4rem;
+    }
+}
+
+@import "./medias/mediamobile";
+@import "./medias/mediatablet";
+@import "./secciones/index";
+@import "./secciones/quiensoy";
+@import "./secciones/contacto";
+@import "./secciones/podcast";
