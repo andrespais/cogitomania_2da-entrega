@@ -8,7 +8,7 @@
     .cogitomania__description {
         padding: 4rem;
         font-size: 120%;
-        color: #ff6100;
+        color: map-get($color, naranja);
         font-style: italic;
     }
     .podcast__icon {
@@ -28,17 +28,19 @@
     .ciencia__icon {
         width: 20rem;
     }
+
+    /* USO DEL EXTEND */
     .h2__ciencia {
-        font-size: 5rem;
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-        color: white;
+        @extend .h2__podcast;
     }
-    .p__ciencia {
+
+    /* USO DEL MIXIN */
+    @mixin p__ciencia {
         color: white;
         margin-left: 3rem;
         margin-top: 3rem;
     }
+
     .cultura__icon {
         width: 20rem;
     }
@@ -48,9 +50,9 @@
         margin-bottom: 5rem;
         color: white;
     }
+
+    /* ACÁ INCLUYO EL MIXIN*/
     .p__cultura {
-        color: white;
-        margin-right: 3rem;
-        margin-top: 3rem;
+        @include p__ciencia;
     }
 }

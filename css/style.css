@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   font-family: 'JetBrains Mono'; }
 
@@ -44,59 +45,44 @@ footer {
   .cogitomania__description {
     font-size: 80%; } }
 
-.style-index .h1__cogitomania {
-  font-family: 'April Fatface', bold;
-  font-size: 7rem;
-  margin-top: 5rem;
-  color: white; }
-
-.style-index .cogitomania__description {
-  padding: 4rem;
-  font-size: 120%;
-  color: #ff6100;
-  font-style: italic; }
-
-.style-index .podcast__icon {
-  width: 20rem; }
-
-.style-index .h2__podcast {
-  font-size: 5rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  color: white; }
-
-.style-index .p__podcast {
-  color: white;
-  margin-right: 3rem;
-  margin-top: 3rem; }
-
-.style-index .ciencia__icon {
-  width: 20rem; }
-
-.style-index .h2__ciencia {
-  font-size: 5rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  color: white; }
-
-.style-index .p__ciencia {
-  color: white;
-  margin-left: 3rem;
-  margin-top: 3rem; }
-
-.style-index .cultura__icon {
-  width: 20rem; }
-
-.style-index .h2__cultura {
-  font-size: 5rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  color: white; }
-
-.style-index .p__cultura {
-  color: white;
-  margin-right: 3rem;
-  margin-top: 3rem; }
+.style-index {
+  /* USO DEL EXTEND */
+  /* USO DEL MIXIN */
+  /* ACÁ INCLUYO EL MIXIN*/ }
+  .style-index .h1__cogitomania {
+    font-family: 'April Fatface', bold;
+    font-size: 7rem;
+    margin-top: 5rem;
+    color: white; }
+  .style-index .cogitomania__description {
+    padding: 4rem;
+    font-size: 120%;
+    color: #ff6100;
+    font-style: italic; }
+  .style-index .podcast__icon {
+    width: 20rem; }
+  .style-index .h2__podcast, .style-index .h2__ciencia {
+    font-size: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: white; }
+  .style-index .p__podcast {
+    color: white;
+    margin-right: 3rem;
+    margin-top: 3rem; }
+  .style-index .ciencia__icon {
+    width: 20rem; }
+  .style-index .cultura__icon {
+    width: 20rem; }
+  .style-index .h2__cultura {
+    font-size: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: white; }
+  .style-index .p__cultura {
+    color: white;
+    margin-left: 3rem;
+    margin-top: 3rem; }
 
 .quien-soy .img__quiensoy {
   width: 30rem;
@@ -124,3 +110,5 @@ footer {
     padding: 3rem; }
   .card-container .btn {
     margin-bottom: 3rem; }
+
+/* UTILIZACIÓN DE MAP */
