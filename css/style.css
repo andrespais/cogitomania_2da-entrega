@@ -1,6 +1,9 @@
 @charset "UTF-8";
 * {
-  font-family: 'JetBrains Mono'; }
+  font-family: 'JetBrains Mono';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 .navbar .container-fluid a:hover {
   background-color: white;
@@ -72,6 +75,10 @@ footer {
     margin-top: 3rem; }
   .style-index .ciencia__icon {
     width: 20rem; }
+  .style-index .p__ciencia {
+    color: white;
+    margin-left: 3rem;
+    margin-top: 3rem; }
   .style-index .cultura__icon {
     width: 20rem; }
   .style-index .h2__cultura {

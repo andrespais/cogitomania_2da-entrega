@@ -8,7 +8,7 @@
     .cogitomania__description {
         padding: 4rem;
         font-size: 120%;
-        color: map-get($color, naranja);
+        color: $naranja;
         font-style: italic;
     }
     .podcast__icon {
@@ -36,10 +36,8 @@
     }
 
     /* USO DEL MIXIN */
-    @mixin p__ciencia {
-        color: white;
-        margin-left: 3rem;
-        margin-top: 3rem;
+    .p__ciencia {
+        @include texto-parrafo;
     }
 
     .cultura__icon {
@@ -54,6 +52,6 @@
 
     /* ACÁ INCLUYO EL MIXIN*/
     .p__cultura {
-        @include p__ciencia;
+        @include texto-parrafo;
     }
 }
