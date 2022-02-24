@@ -3,7 +3,7 @@
         font-family: 'April Fatface', bold;
         font-size: 7rem;
         margin-top: 5rem;
-        color: white;
+        color: $blanco;
     }
     .cogitomania__description {
         padding: 4rem;
@@ -19,10 +19,10 @@
         font-size: 5rem;
         margin-top: 5rem;
         margin-bottom: 5rem;
-        color: white;
+        color: $blanco;
     }
     .p__podcast {
-        color: white;
+        color: $blanco;
         margin-right: 3rem;
         margin-top: 3rem;
     }
@@ -47,7 +47,7 @@
         font-size: 5rem;
         margin-top: 5rem;
         margin-bottom: 5rem;
-        color: white;
+        color: $blanco;
     }
 
     /* ACÁ INCLUYO EL MIXIN*/
